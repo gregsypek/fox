@@ -3,7 +3,7 @@
   "version": "1.0.0",
   "description": "",
   "main": "index.js",
-  "scripts": {    
+  "scripts": {
     "dev": "parcel src/index.html",
     "lint": "eslint --ignore-path ./.gitignore --fix \"./**/*.{js,ts}\"",
     "lint:check": "eslint --ignore-path ./.gitignore --quiet \"./**/*.{js,ts}\"",
@@ -11,6 +11,9 @@
     "format:check": "prettier ./.gitignore --check \"./**/*.{html,json,js,ts,css}\"",
     "test": "jest"
   },
+  "browserslist": [
+    "last 2 Firefox versions"
+  ],
   "keywords": [],
   "author": "",
   "license": "ISC",
